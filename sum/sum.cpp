@@ -3,9 +3,19 @@
 using namespace std;
 
 int value;
+int sum;
 
 int main(int argc, const char* argv[])
 {
-    std::cin >> value;
-    std::cout << value;
+    sum = 0;
+
+    while(std::cin >> value)
+    {
+        std::cout << "+";
+        std::cout << value << endl;
+        sum += value;
+    }
+
+    std::cout << "= ";
+    std::cout << sum << endl;
 }
