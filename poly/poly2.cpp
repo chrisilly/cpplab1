@@ -20,10 +20,13 @@ float Poly2::eval(float x)
 
 /// @brief 
 /// @return Roots of a polynomial equation. If no real root exists, returns external constant float "rootless"
-std::tuple<float,float> Poly2::getRoots()
+/*std::tuple<float,float>*/ void Poly2::getRoots(float &root1, float &root2)
 {
-	float root1;
-	float root2;
+	if(a == 0)
+	{
+		root1 = (-c)/b;
+		// return std::make_tuple(root1, rootless);
+	}
 
 	float d = sqrt((b*b) - 4 * a * c);
 
@@ -31,15 +34,15 @@ std::tuple<float,float> Poly2::getRoots()
 	{
 		root1 = (d-b)/(2*a);
 		root2 = (-d-b)/(2*a);
-		return std::make_tuple(root1,root2);
+		// return std::make_tuple(root1, root2);
 	}
 	else if(d == 0)
 	{
 		root1 = (-b)/(2*a);
-		return std::make_tuple(root1,rootless);
+		// return std::make_tuple(root1, rootless);
 	}
 
-	return std::make_tuple(rootless,rootless);
+	// return std::make_tuple(rootless, rootless);
 }
 
 void Poly2::findRoots()

@@ -25,7 +25,7 @@ public:
     /*
     *  Return the roots of a polynomial equation y(x)
     */
-   std::tuple<float,float> getRoots();
+    /*std::tuple<float,float>*/ void Poly2::getRoots(float &root1, float &root2);
 
     
     /*
@@ -34,20 +34,26 @@ public:
      */
 };
 
-class Printer
+class Program
 {
 
 public:
     /*
     * Print roots of a polynomial equation y(x)
     */
-   void printRoots(float a, float b, float c);
+void printRoots(float a, float b, float c);  
 
     /*
     * Evaluate and print the value of y(x) for an inputted x 
     */
-   void evaluate(float a, float b, float c);
+    void evaluate(float a, float b, float c);
+
+    /*
+    * 
+    */
+    bool debugCodeEntered(float a, float b, float c);
 };
+
 
 
 #endif

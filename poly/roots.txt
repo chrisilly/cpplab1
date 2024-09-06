@@ -1,0 +1,40 @@
+-----------------------------------------------------
+Enter three coefficients for a polynomial, one coefficient at a time.
+Alternatively, enter '0' for all coefficients to toggle evaluation for y(x) (given an inputted x) after routine.
+-----------------------------------------------------
+-----------------------------------------------------
+Coefficients selected:
+a = 1, b = 2, c = 1
+Root-finding started...
+Found one real root: -1
+-----------------------------------------------------
+Enter three coefficients for a polynomial, one coefficient at a time.
+Alternatively, enter '0' for all coefficients to enable evaluation for y(x) (given an inputted x) after routine.
+-----------------------------------------------------
+-----------------------------------------------------
+Coefficients selected:
+a = 2, b = -1, c = -1
+Root-finding started...
+Found two real roots: 1, -0.5
+-----------------------------------------------------
+Enter three coefficients for a polynomial, one coefficient at a time.
+Alternatively, enter '0' for all coefficients to enable evaluation for y(x) (given an inputted x) after routine.
+-----------------------------------------------------
+-----------------------------------------------------
+Coefficients selected:
+a = 1, b = 1, c = 1
+Root-finding started...
+Found no real roots.
+-----------------------------------------------------
+Enter three coefficients for a polynomial, one coefficient at a time.
+Alternatively, enter '0' for all coefficients to enable evaluation for y(x) (given an inputted x) after routine.
+-----------------------------------------------------
+-----------------------------------------------------
+Coefficients selected:
+a = 1, b = 2, c = -2
+Root-finding started...
+Found two real roots: 0.732051, -2.73205
+-----------------------------------------------------
+Enter three coefficients for a polynomial, one coefficient at a time.
+Alternatively, enter '0' for all coefficients to enable evaluation for y(x) (given an inputted x) after routine.
+-----------------------------------------------------
