@@ -1,0 +1,10 @@
+^C:\USERS\CHRIS\SOURCE\REPOS\LAB1_HANDOUT\LAB1_HANDOUT\POLY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/chris/source/repos/lab1_handout/lab1_handout/poly "-BC:/Users/chris/source/repos/lab1_handout/lab1_handout/poly/build/Build C++ via cl.exe" --check-stamp-file "C:/Users/chris/source/repos/lab1_handout/lab1_handout/poly/build/Build C++ via cl.exe/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -25,7 +25,7 @@ public:
     /*
     *  Return the roots of a polynomial equation y(x)
     */
-    /*std::tuple<float,float>*/ void Poly2::getRoots(float &root1, float &root2);
+    /*std::tuple<float,float>*/ void getRoots(float &root1, float &root2);
 
     
     /*

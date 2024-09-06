@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chris\source\repos\lab1_handout\lab1_handout\poly\constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\source\repos\lab1_handout\lab1_handout\poly\poly2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chris\source\repos\lab1_handout\lab1_handout\poly\polysolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chris\source\repos\lab1_handout\lab1_handout\poly\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{44ECC0EB-4A53-3D22-A1A5-FB98654DE683}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
